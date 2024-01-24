@@ -1,0 +1,30 @@
+.tableContainer {
+    overflow-x: auto;
+}
+
+.table {
+    margin: 40px auto;
+    border-collapse: collapse;
+    font-size: 20px;
+}
+
+.table__caption {
+    background-color: #014646;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid #a5a5a5;
+    border-bottom: none;
+}
+
+.table__cell {
+    border: 2px solid #a5a5a5;
+    padding: 10px 25px;
+    text-align: center;
+}
+
+.table__cell--header {
+    background-color: #116d6d;
+    color: white;
+}

@@ -1,0 +1,22 @@
+.travelImage {
+    width: 100%;
+    max-width: 350px;
+    min-width: 200px;
+    height: 400px;
+    object-fit: cover;
+    margin: 2px 5px;
+    border: #116d6d 7px solid;
+    border-radius: 25px;
+    outline: #fff 3px solid;
+    outline-offset: -5px;
+}
+
+.travelImage--dottedOutline {
+    outline-style: dotted;
+}
+
+.sectionContent--travel {
+    text-align: center;
+    margin: 0px;
+    padding-right: 30px;
+}

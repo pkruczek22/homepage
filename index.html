@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homepage project</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/sectionStyle.css" rel="stylesheet">
+  <link href="css/navigationStyle.css" rel="stylesheet">
+  <link href="css/tableStyle.css" rel="stylesheet">
+  <link href="css/travelSectionStyle.css" rel="stylesheet">
+  <link href="css/headerStyle.css" rel="stylesheet">
+
+  <script defer src="js/script.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+</head>
+
+<body class="body">
+  <header class="header">
+    <h1 class="header__title">Homepage project</h1>
+    <div class="header__buttonContainer">
+      <button class="header__switchButton js-switchButton">
+        Set <span class="js-switchButtonContent">dotted</span> outline
+      </button>
+    </div>
+    <div class="navigationContainer">
+      <img class="mainImage js-mainImage" src="images/pawel_k.jpg" alt="Paweł Kruczek">
+      <nav class="navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a class="navigation__link" href="#about-me">About me</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#travels-photos">Travels photos</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#my-travels">My travels</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <section class="section">
+      <h2 id="about-me" class="section__header">About me</h2>
+      <article class="section__article">
+        <h3 class="section__articleHeader">Something about me</h3>
+        <p class="section__content">Hi! My name is <strong>Paweł</strong>. I live in Wrocław and I am studying
+          <i>computer
+            science</i> here. Nowadays I work as a waiter and in free time I am learning how to programming.
+        </p>
+      </article>
+      <article class="section__article">
+        <h3 class="section__articleHeader">My hobby</h3>
+        <p class="section__content">Besides programming in my free time first of all is <b>sport</b>. I like trying
+          new
+          sports, but my favorite one is roller skating. I roller skate. <br>Another hobby is traveling. Meeting new
+          cultures and people, visiting
+          new places whenever I can is <em>the best way to live</em>. I love visiting museums, theater or art
+          galleries. But the
+          most I love mountain or forest hikikng.</p>
+      </article>
+    </section>
+    <section class="section">
+      <h2 class="section__header">Travels</h2>
+      <article class="section__article">
+        <h3 id="travels-photos" class="section__articleHeader">My travels photos</h3>
+        <p class="section__content sectionContent--travel">
+          <img class="travelImage js-travelImage" src="images/drezno.jpg" alt="architektura Drezno">
+          <img class="travelImage js-travelImage" src="images/karpacz.jpg" alt="Karpacz las">
+          <img class="travelImage js-travelImage" src="images/szklarskaporęba.jpg" alt="góry szklarska-poręba">
+          <img class="travelImage js-travelImage" src="images/wodospad.jpg" alt="wodospad Kamieńczyka">
+        </p>
+      </article>
+      <article class="section__article">
+        <h3 id="my-travels" class="section__articleHeader">My travel history</h3>
+        <p>Below is a table of my most important foreign trips.</p>
+        <div class="tableContainer">
+          <table class="table">
+            <caption class="table__caption">Countries visited</caption>
+            <thead>
+              <tr class="table__row">
+                <th scope="col" class="table__cell table__cell--header">Country</th>
+                <th scope="col" class="table__cell table__cell--header">City</th>
+                <th scope="col" class="table__cell table__cell--header">Length of stay</th>
+                <th scope="col" class="table__cell table__cell--header"> My rating</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="table__row">
+                <th scope="row" class="table__cell table__cell--header" rowspan="2">Czech republic</th>
+                <td class="table__cell">Nachod</td>
+                <td class="table__cell">1 day</td>
+                <td class="table__cell">6/10</td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__cell">Prague</td>
+                <td class="table__cell">3 days</td>
+                <td class="table__cell">8/10</td>
+              </tr>
+              <tr class="table__row">
+                <th scope="row" class="table__cell table__cell--header">Portugal</th>
+                <td class="table__cell">Evora</td>
+                <td class="table__cell">30 days</td>
+                <td class="table__cell">10/10</td>
+              </tr>
+              <tr class="table__row">
+                <th scope="row" class="table__cell table__cell--header">Deutchland</th>
+                <td class="table__cell">Dresden</td>
+                <td class="table__cell">2 days</td>
+                <td class="table__cell">6/10</td>
+              </tr>
+              <tr class="table__row">
+                <th scope="row" class="table__cell table__cell--header" rowspan="2">Italy</th>
+                <td class="table__cell">Palermo</td>
+                <td class="table__cell">4 days</td>
+                <td class="table__cell">7/10</td>
+              </tr>
+              <tr class="table__row">
+                <td class="table__cell">Cefalu</td>
+                <td class="table__cell">2 days</td>
+                <td class="table__cell">9/10</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </article>
+    </section>
+  </main>
+  <footer class="footer">Thank you for visiting!</footer>
+</body>
+
+</html>
