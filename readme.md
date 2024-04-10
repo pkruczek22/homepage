@@ -15,8 +15,17 @@ Try this link 👉 https://pkruczek22.github.io/homepage/
 
 <br>
 
+## Tech stack:
+- HTML
+- JAVASCRIPT
+- CSS
+- BEM
+- Markdown
+
+<br>
+
 ## Would you like to see more? Check this out 👇
-💵 Currency Calculator Project 👉 https://pkruczek22.github.io/currency-converter/ 
+💵 Currency Calculator Project 👉 https://github.com/pkruczek22/currency-converter/tree/main/
 
 <br> 
 
