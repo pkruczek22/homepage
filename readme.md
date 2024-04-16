@@ -5,13 +5,13 @@ This web project was created as part of the Fornted Web Developer course, and sh
 
 <br>
 
-## Take a look at my website 😀
-![website gif](https://github.com/pkruczek22/homepage/blob/main/images/readme.gif?raw=true)
+## 🕹️ Demo
+Try this link 👉 https://pkruczek22.github.io/homepage/
 
 <br>
 
-## 🕹️ Demo
-Try this link 👉 https://pkruczek22.github.io/homepage/
+## Take a look at my website 😀
+![website gif](https://github.com/pkruczek22/homepage/blob/main/images/readme.gif?raw=true)
 
 <br>
 
