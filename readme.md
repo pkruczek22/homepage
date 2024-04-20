@@ -25,7 +25,9 @@ Try this link 👉 https://pkruczek22.github.io/homepage/
 <br>
 
 ## Would you like to see more? Check this out 👇
-💵 Currency Calculator Project 👉 https://github.com/pkruczek22/currency-converter/tree/main/
+💵 Currency Calculator Project 👉 https://github.com/pkruczek22/currency-converter/
+
+📋 To do list Project 👉 https://github.com/pkruczek22/to-do-list/
 
 <br> 
 
