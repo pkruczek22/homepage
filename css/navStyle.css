@@ -1,0 +1,42 @@
+.nav {
+    max-width: 1000px;
+    margin: 10px auto;
+    border-radius: 20px;
+    background-color: #f1f1f1;
+}
+
+.nav__list {
+    list-style-type: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav__listItem {
+    font-size: 20px;
+    flex-grow: 1;
+    text-align: center;
+    display: flex;
+}
+
+.nav__listLink {
+    color: #793a00;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    flex-grow: 1;
+}
+
+.nav__listLink:hover, .nav__listLink:focus {
+    background-color: #e66f00;
+    color: #ffffff;
+    outline: none;
+}
+
+.nav__listLink--firstLink:hover, .nav__listLink--firstLink:focus {
+    border-radius: 16px 0px 0px 16px;
+}
+
+.nav__listLink--lastLink:hover, .nav__listLink--lastLink:focus {
+    border-radius: 0px 16px 16px 0px;
+}

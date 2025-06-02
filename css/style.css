@@ -1,0 +1,29 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    background: linear-gradient(to right, #a00000, #0c016e);
+    margin: 0;
+    color: #ffffffe0;
+    font-family: 'Lato', sans-serif;
+}
+
+.main {
+    padding: 0px 30px 50px 30px;
+    max-width: 1000px;
+    margin: auto;
+
+}
+
+.footer {
+    font-size: 20px;
+    padding: 20px;
+    background-color: #e66f0056;
+    border-radius: 20px 20px 0px 0px;
+    text-align: center;
+}

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homepage</title>
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/headerStyle.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/navStyle.css">
+  <link rel="stylesheet" href="css/sectionStyle.css">
+  <link rel="stylesheet" href="css/tableStyle.css">
+  <script defer src="js/script.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="body">
+  <header class="header">
+    <h1 class="header__header">Homepage project</h1>
+    <img class="header__mainImage" src="images/pawel.jpg" alt="Paweł Kruczek">
+    <p class="header__authorLabel js-authorLabel"></p>
+    <button class="header__showAuthorButton js-showAuthorButton">Show author</button>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__listItem">
+          <a href="#about-me" class="nav__listLink nav__listLink--firstLink">About me</a>
+        </li>
+        <li class="nav__listItem"><a href="#my-travels" class="nav__listLink">My travels</a></li>
+        <li class="nav__listItem"><a href="#travel-rating" class="nav__listLink nav__listLink--lastLink">Travel
+            rating</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+    <section class="section">
+      <h2 id="about-me" class="section__header">About me</h2>
+      <p class="section__paragraph">Hi! I am <b>Paweł</b>. I am <i>computer science</i> student and I am here to
+        leran how to
+        code.<br>I
+        live in Wrocław, where I study and work as a waiter. I am 24 years old, and I love traveling, gaming,
+        good
+        music and food. <em>However</em>, in my daily routine I also find some time for sport like gym, roller
+        skating or
+        swimming.</p>
+    </section>
+    <section class="section">
+      <h2 id="my-travels" class="section__header">My travels</h2>
+      <p class="section__paragraph">This year just started, but already was full of traveling. In january I was in
+        Italy, in February in
+        France and next I was in England. Take a look!</p>
+      <div class="section__imageContainer">
+        <img class="section__image" src="images/milano1.jpg" alt="milano duomo">
+        <img class="section__image" src="images/milano2.jpg" alt="milano garden">
+        <img class="section__image" src="images/france1.jpg" alt="france sea">
+        <img class="section__image" src="images/france2.jpg" alt="france mountain">
+      </div>
+    </section>
+    <section class="section">
+      <h2 id="travel-rating" class="section__header">Travel rating</h2>
+      <div class="table__container">
+        <table class="table">
+          <caption class="table__caption">Rates of my travels</caption>
+          <thead>
+            <tr class="table__row">
+              <th class="table__cell table__cell--header">Country</th>
+              <th class="table__cell table__cell--header">City</th>
+              <th class="table__cell table__cell--header">Rate</th>
+              <th class="table__cell table__cell--header">Expensive</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="table__row">
+              <th class="table__cell table__cell--header" rowspan="2">Portugal</th>
+              <td class="table__cell">Evora</td>
+              <td class="table__cell">⭐⭐⭐⭐</td>
+              <td class="table__cell">$$$</td>
+            </tr>
+            <tr class="table__row">
+              <td class="table__cell">Lisbon</td>
+              <td class="table__cell">⭐⭐⭐⭐</td>
+              <td class="table__cell">$$$</td>
+            </tr>
+            <tr class="table__row">
+              <th class="table__cell table__cell--header">Czech Republic</th>
+              <td class="table__cell">Prague</td>
+              <td class="table__cell">⭐⭐⭐⭐⭐</td>
+              <td class="table__cell">$$</td>
+            </tr>
+            <tr class="table__row">
+              <th class="table__cell table__cell--header">Germany</th>
+              <td class="table__cell">Dresden</td>
+              <td class="table__cell">⭐⭐⭐⭐</td>
+              <td class="table__cell">$$</td>
+            </tr>
+            <tr class="table__row">
+              <th class="table__cell table__cell--header" rowspan="4">Italy</th>
+              <td class="table__cell">Palermo</td>
+              <td class="table__cell">⭐⭐⭐</td>
+              <td class="table__cell">$</td>
+            </tr>
+            <tr class="table__row">
+              <td class="table__cell">Cefalu</td>
+              <td class="table__cell">⭐⭐⭐⭐⭐</td>
+              <td class="table__cell">$</td>
+            </tr>
+            <tr class="table__row">
+              <td class="table__cell">Milano</td>
+              <td class="table__cell">⭐⭐⭐</td>
+              <td class="table__cell">$$$</td>
+            </tr>
+            <tr class="table__row">
+              <td class="table__cell">Bergamo</td>
+              <td class="table__cell">⭐⭐⭐</td>
+              <td class="table__cell">$$</td>
+            </tr>
+            <tr class="table__row">
+              <th class="table__cell table__cell--header">Albania</th>
+              <td class="table__cell">Tirane</td>
+              <td class="table__cell">⭐⭐⭐</td>
+              <td class="table__cell">$</td>
+            </tr>
+            <tr class="table__row">
+              <th class="table__cell table__cell--header">Slovakia</th>
+              <td class="table__cell">Bratislava</td>
+              <td class="table__cell">⭐⭐⭐⭐</td>
+              <td class="table__cell">$$</td>
+            </tr>
+            <tr class="table__row">
+              <th class="table__cell table__cell--header" rowspan="3">Montenegro</th>
+              <td class="table__cell">Podgorica</td>
+              <td class="table__cell">⭐⭐</td>
+              <td class="table__cell">$</td>
+            <tr class="table__row">
+              <td class="table__cell">Budva</td>
+              <td class="table__cell">⭐⭐⭐⭐</td>
+              <td class="table__cell">$$</td>
+            </tr>
+            <tr class="table__row">
+              <td class="table__cell">Kotor</td>
+              <td class="table__cell">⭐⭐⭐⭐⭐</td>
+              <td class="table__cell">$</td>
+            </tr>
+            <tr class="table__row">
+              <th class="table__cell table__cell--header">Cyprus</th>
+              <td class="table__cell">Paphos</td>
+              <td class="table__cell">⭐⭐⭐</td>
+              <td class="table__cell">$</td>
+            </tr>
+            <tr class="table__row">
+              <th class="table__cell table__cell--header">France</th>
+              <td class="table__cell">Marseille</td>
+              <td class="table__cell">⭐⭐⭐</td>
+              <td class="table__cell">$$</td>
+            </tr>
+            <tr class="table__row">
+              <th class="table__cell table__cell--header">United Kingdom</th>
+              <td class="table__cell">London</td>
+              <td class="table__cell">⭐⭐⭐⭐⭐</td>
+              <td class="table__cell">$$$</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">Thank you for visiting! More soon 😎</footer>
+</body>
+
+</html>
