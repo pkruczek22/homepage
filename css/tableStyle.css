@@ -16,7 +16,7 @@
 
 .table__caption {
     padding: 10px;
-    background-color: #ce6402;
+    background-color: #0a0438;
     color:#fff;
     font-weight: 700;
     font-size: 20px;
@@ -31,6 +31,6 @@
 }
 
 .table__cell--header {
-    background-color: #ce6402;
+    background-color: #0a0438;
     color: #fff;
 }

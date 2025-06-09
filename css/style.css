@@ -7,7 +7,7 @@ html {
 }
 
 .body {
-    background: linear-gradient(to right, #a00000, #0c016e);
+    background: linear-gradient(to right, #000000, #0a0438);
     margin: 0;
     color: #ffffffe0;
     font-family: 'Lato', sans-serif;
@@ -23,7 +23,7 @@ html {
 .footer {
     font-size: 20px;
     padding: 20px;
-    background-color: #e66f0056;
+    background-color: #58575562;
     border-radius: 20px 20px 0px 0px;
     text-align: center;
 }

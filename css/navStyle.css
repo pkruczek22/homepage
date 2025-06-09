@@ -20,7 +20,7 @@
 }
 
 .nav__listLink {
-    color: #793a00;
+    color: #0c032c;
     display: inline-block;
     padding: 10px;
     text-decoration: none;
@@ -28,7 +28,7 @@
 }
 
 .nav__listLink:hover, .nav__listLink:focus {
-    background-color: #e66f00;
+    background-color: #5c49e7;
     color: #ffffff;
     outline: none;
 }
